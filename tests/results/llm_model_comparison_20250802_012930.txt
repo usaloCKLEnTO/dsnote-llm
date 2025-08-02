@@ -1,0 +1,440 @@
+=== Simon's LLM Tool Model Comparison ===
+Date: Sat Aug  2 01:29:30 EDT 2025
+Testing 11 models with 5 text samples
+
+
+
+=========================================
+MODEL: groq-kimi-k2
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"We should implement this feature."
+Average time: 557.562ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 545.277ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google Docs for the answer."
+Average time: 552.601ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 561.907ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 626.519ms
+
+OVERALL AVERAGE FOR groq-kimi-k2: 568.773ms
+
+
+=========================================
+MODEL: groq-llama3-70b
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+""We should implement this feature.""
+Average time: 499.553ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 481.901ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google docs for the answer."
+Average time: 525.325ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+""We need to refactor this code.""
+Average time: 455.671ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 482.588ms
+
+OVERALL AVERAGE FOR groq-llama3-70b: 489.007ms
+
+
+=========================================
+MODEL: gpt-4o
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 1291.925ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 984.690ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check Google Docs for the answer."
+Average time: 1132.486ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 1329.736ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The issue is that the nd command doesn't work properly."
+Average time: 1065.220ms
+
+OVERALL AVERAGE FOR gpt-4o: 1160.811ms
+
+
+=========================================
+MODEL: claude-3.5-sonnet
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 1353.485ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"Here's the cleaned command:
+
+Clean up this transcribed speech. Remove filler words like 'um', 'uh', fix grammar, remove duplicate words, and make it clear and concise. Only return the cleaned text, no explanations."
+Average time: 1289.494ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check Google Docs for the answer"
+Average time: 1160.070ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 1260.056ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 1093.933ms
+
+OVERALL AVERAGE FOR claude-3.5-sonnet: 1231.407ms
+
+
+=========================================
+MODEL: claude-3.5-haiku
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"We should implement this feature."
+Average time: 1440.969ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"the command is broken and needs to be fixed
+
+Clean up this transcribed speech. Remove filler words like 'um', 'uh', fix grammar, remove duplicate words, and make it clear and concise."
+Average time: 3800.946ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google docs for the answer."
+Average time: 1251.529ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 1661.874ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"So the problem is that the nd command doesn't work properly."
+Average time: 2121.995ms
+
+OVERALL AVERAGE FOR claude-3.5-haiku: 2055.462ms
+
+
+=========================================
+MODEL: gemini-2.5‑flash
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"Error: 'Unknown model: gemini-2.5‑flash'"
+Average time: 285.094ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"Error: 'Unknown model: gemini-2.5‑flash'"
+Average time: 282.086ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Error: 'Unknown model: gemini-2.5‑flash'"
+Average time: 286.927ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"Error: 'Unknown model: gemini-2.5‑flash'"
+Average time: 290.035ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"Error: 'Unknown model: gemini-2.5‑flash'"
+Average time: 283.864ms
+
+OVERALL AVERAGE FOR gemini-2.5‑flash: 285.601ms
+
+
+=========================================
+MODEL: gemini-2.5-pro
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 6551.420ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 16613.083ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google Docs for the answer."
+Average time: 6785.773ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 6789.599ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 7423.562ms
+
+OVERALL AVERAGE FOR gemini-2.5-pro: 8832.687ms
+
+
+=========================================
+MODEL: gpt-3.5-turbo
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 1290.065ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 955.982ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google Docs for the answer."
+Average time: 853.459ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"Well, basically, what I'm trying to say is that we need to refactor this code."
+Average time: 801.747ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the 'nd' command doesn't work properly."
+Average time: 766.802ms
+
+OVERALL AVERAGE FOR gpt-3.5-turbo: 933.611ms
+
+
+=========================================
+MODEL: gpt-4-turbo
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 973.305ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 1090.991ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check Google Docs for the answer."
+Average time: 1086.254ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 978.208ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the ND command doesn't work properly."
+Average time: 1146.914ms
+
+OVERALL AVERAGE FOR gpt-4-turbo: 1055.134ms
+
+
+=========================================
+MODEL: gpt-4o
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 1109.539ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 875.247ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check Google Docs for the answer."
+Average time: 1083.661ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 971.681ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the ND command doesn't work properly."
+Average time: 1068.425ms
+
+OVERALL AVERAGE FOR gpt-4o: 1021.710ms
+
+
+=========================================
+MODEL: gpt-4o-mini
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 836.874ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 931.184ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Sure, please provide the transcribed speech you'd like me to clean up."
+Average time: 935.742ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 971.088ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the "nd" command doesn't work properly."
+Average time: 1081.384ms
+
+OVERALL AVERAGE FOR gpt-4o-mini: 951.254ms
+
+
+=========================================
+QUICK REFERENCE SUMMARY
+=========================================
+
+Models tested:
+- groq-kimi-k2
+- groq-llama3-70b
+- gpt-4o
+- claude-3.5-sonnet
+- claude-3.5-haiku
+- gemini-2.5‑flash
+- gemini-2.5-pro
+- gpt-3.5-turbo
+- gpt-4-turbo
+- gpt-4o
+- gpt-4o-mini
+
+Test samples used:
+3. "um, so like, I think we should, uh, implement this feature"
+4. "the the command is is broken and nd need to to fix it"
+5. "uh, let me check the gooble docs for for the answer"
+6. "Well um basically what I'm trying to say is uh that we need to to refactor this code"
+7. "So so the problem is is that the nd command doesn't doesn't work properly"

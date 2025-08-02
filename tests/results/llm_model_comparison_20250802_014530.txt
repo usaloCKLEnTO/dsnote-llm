@@ -1,0 +1,164 @@
+=== Simon's LLM Tool Model Comparison ===
+Date: Sat Aug  2 01:45:30 EDT 2025
+Testing 2 models with 5 text samples
+
+
+
+=========================================
+MODEL: gemini-2.5-flash-lite-preview-06-17
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"We should implement this feature."
+Average time: 740.931ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 709.430ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google Docs for the answer."
+Average time: 642.844ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 676.114ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the `nd` command doesn't work properly."
+Average time: 673.390ms
+
+OVERALL AVERAGE FOR gemini-2.5-flash-lite-preview-06-17: 688.541ms
+
+
+=========================================
+MODEL: groq/qwen/qwen3-32b
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"<think>
+Okay, I need to clean up the user's transcribed speech. Let me look at the original text again: "um, so like, I think we should, uh, implement this feature". 
+
+First, identify the filler words. "Um", "so like", "uh" are all fillers. The user wants those removed. Next, I should check for any duplicate words. In this case, there aren't any. Then fix grammar and make it concise.
+
+Removing the fillers first: "um" at the beginning, "so like" in the middle, and "uh" after "think we should". So the core message is "I think we should implement this feature." Let me make sure there are no grammar issues. The original structure is okay, but maybe a bit awkward. 
+
+Alternatively, "Let's implement this feature" could be even more concise. But the user wants the cleaned text without explanations. The key point is to present the main idea clearly. So the final version after removing fillers and making it concise is "We should implement this feature." That's clear and to the point.
+</think>
+
+We should implement this feature."
+Average time: 1461.651ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"<think>
+Okay, let's see. The user provided a command that's supposed to be cleaned up. The original text is: "the the command is is broken and nd need to to fix it". The user wants me to remove filler words like 'um' and 'uh', fix grammar, remove duplicate words, and make it clear and concise. They also mentioned to only return the cleaned text, no explanations.
+
+First, I need to go through the text step by step. Let's start by looking for duplicate words. "the the" becomes "the", "is is" becomes "is", "to to" becomes "to". Then there's "and nd" which might be a typo. "nd" could be part of "and" or maybe a missing letter. Since it's part of the transcribed speech, maybe it was misheard as "and nd" but the user meant "and needs". Alternatively, "nd" might be a typo for "need". Let me check the context. The sentence is "the command is broken and nd need to fix it". The original had "and nd need". If it's "and need", that makes sense. So "and nd" might be a transcription error where they meant "and need". So replacing "and nd need" with "needs" or "and need".
+
+So the corrected sentence would be "The command is broken and needs to be fixed." Or "The command is broken and needs to be fixed." Let me check each part again.
+
+Original: "the the command is is broken and nd need to to fix it"
+
+After removing duplicates and fixing typos:
+
+"The command is broken and needs to be fixed."
+
+Wait, the user's original has "and nd need to to fix it". So "nd" might be "needs". Let me parse that again. "and nd need" could be "and needs". Maybe the speaker said "and needs to fix it", but the transcription captured "nd" as a typo. So "and nd need to to fix it" becomes "and needs to fix it". Then "to to" becomes "to". So the corrected sentence would be "The command is broken and needs to fix it." Or "The command is broken and needs to be fixed." The latter sounds more natural. Because usually we say "needs to be fixed" rather than "needs to fix it". But the original might not have a "be". Hmm, maybe the user's original was "the command is broken and needs to fix it". But that would mean the command is fixing itself, which is not correct. So probably, the correct sentence should be "The command is broken and needs to be fixed." But I need to check the original text again.
+
+Original: "the the command is is broken and nd need to to fix it"
+
+After removing duplicates and typos: "the command is broken and nd need to fix it". The "nd" is probably a typo for "needs", so "the command is broken and needs to fix it." Wait, maybe "nd" is part of "and". Like the user might have said "and needs" but it was transcribed as "and nd need". So "and nd need" becomes "and needs". So the corrected sentence: "The command is broken and needs to fix it." But again, "needs to fix it" would mean the command is doing the fixing, which is not the intended meaning. The intended meaning is that the command is broken and needs to be fixed. So maybe the correct structure is "The command is broken and needs to be fixed."
+
+So putting it all together: "The command is broken and needs to be fixed."
+
+I should also check if there are any other filler words mentioned, like 'um' or 'uh', but the original doesn't have those. The task also mentions removing duplicate words, grammatical errors, and making it concise. The corrected sentence is clear and without redundancy. So the final answer should be that.
+</think>
+
+The command is broken and needs to be fixed."
+Average time: 2639.281ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"<think>
+Okay, let's see. The user asked to clean up some transcribed speech by removing filler words like 'um' and 'uh', fixing grammar, removing duplicates, and making it clear and concise. They only want the cleaned text without any explanations.
+
+First, I need to look at the original text they provided. The example given was: "uh, let me check the gooble docs for for the answer". Hmm, I notice the double "for" and the misspelling of "Google". So the corrections here would be changing "gooble" to "Google" and removing the duplicate "for".
+
+Now, applying the user's instructions step by step. Remove filler words first. The first word here is "uh", which should be taken out. Then, check for any other fillers in the sentence. In this case, there are none. Next, fix grammar. The phrase "check the gooble docs for for the answer" has a grammatical error with the repeated "for". Changing that to just "check the Google docs for the answer" makes it correct. Also, "gooble" is a typo and needs correction to "Google".
+
+Then, removing duplicate words. The double "for" is already handled by removing the extra. Making it clear and concise – the sentence is straightforward once the corrections are made. 
+
+I need to ensure that no explanations are included, just the cleaned text. Let me verify if all the required elements are addressed: filler words removed, grammar fixed, duplicates gone, clear and concise. Yep, the result should be "Let me check the Google docs for the answer." That's correct.
+
+Wait, the original sentence starts with "uh, let me check..." so removing "uh" gives "Let me check...". Also, making sure that the sentence is in the same meaning but improved. The original is someone expressing they need to check Google docs, and the cleaned version maintains that intent without any unnecessary words.
+
+No other filler words like "um" are present here. The grammar is fixed, the duplicate "for" is removed, and the typo is corrected. The output is concise. I think that's all. Just return the cleaned text as specified.
+</think>
+
+Let me check the Google docs for the answer."
+Average time: 1982.017ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"<think>
+Okay, the user wants me to clean up their transcribed speech. Let me look at what they provided. The original text is "Well um basically what I'm trying to say is uh that we need to to refactor this code." Hmm, there are a bunch of filler words here like "Well," "um," "basically," "uh," and even a duplicate "to to." My job is to remove the fillers and make it clear and concise.
+
+First, "Well um basically" – "Well" and "basically" are both introductory words that don't add much. "Um" and "uh" are common filler words in speech. So those can go. Then "what I'm trying to say is uh" is a way of hedging, so I can probably replace that with something more direct. The main point is "we need to refactor this code." The duplicate "to to" should be corrected to a single "to."
+
+Putting that all together, the cleaned-up version would be "We need to refactor this code." That's straightforward and removes all the unnecessary elements. Let me double-check: no fillers left, correct grammar, and it's concise. Yeah, that should do it.
+</think>
+
+We need to refactor this code."
+Average time: 1496.550ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"<think>
+Okay, let's tackle this. The user provided a sentence that's a transcription of speech with filler words and duplicates. The task is to clean it up.
+
+First, I'll read the original: "So so the problem is is that the nd command doesn't doesn't work properly". 
+
+I notice "so" is repeated at the beginning. Need to remove the extra "so". Then "problem is is" has a duplicate "is". That should be corrected to just "is". The command mentioned is "nd", and "doesn't doesn't" is a duplicate, so fix to "doesn't". The rest seems okay. 
+
+Putting it all together: "The problem is that the nd command doesn't work properly." 
+
+Check for any other fillers like "um" or "uh" but there are none here. Grammar looks good after corrections. No other duplicates. Concise and clear now. That should be the cleaned version.
+</think>
+
+The problem is that the nd command doesn't work properly."
+Average time: 1336.249ms
+
+OVERALL AVERAGE FOR groq/qwen/qwen3-32b: 1783.149ms
+
+
+=========================================
+QUICK REFERENCE SUMMARY
+=========================================
+
+Models tested:
+- gemini-2.5-flash-lite-preview-06-17
+- groq/qwen/qwen3-32b
+
+Test samples used:
+3. "um, so like, I think we should, uh, implement this feature"
+4. "the the command is is broken and nd need to to fix it"
+5. "uh, let me check the gooble docs for for the answer"
+6. "Well um basically what I'm trying to say is uh that we need to to refactor this code"
+7. "So so the problem is is that the nd command doesn't doesn't work properly"

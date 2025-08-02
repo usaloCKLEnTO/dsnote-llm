@@ -1,0 +1,62 @@
+=== Simon's LLM Tool Model Comparison ===
+Date: Sat Aug  2 12:09:19 EDT 2025
+Testing 1 models with 5 text samples
+
+
+
+=========================================
+MODEL: openrouter/mistralai/mistral-7b-instruct:free
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+" Implement the following feature: Clarify speech by removing filler words such as "um" and "uh", fixing grammar, removing duplicate words, and making it more concise. Provide only the cleaned text.
+
+For example:
+
+Input: "Um, like, I think we should, uh, implement this feature for our project."
+
+Output: "I think we should implement this feature for our project.""
+Average time: 1780.144ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+" "The command is broken and needs to be fixed.""
+Average time: 1387.183ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+" "Check Google docs for the answer regarding the requested topic""
+Average time: 1458.382ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+" Here is the cleaned version of your message: "We need to refactor this code. Remove filler words like 'um', 'uh', fix grammar, remove duplicate words, and make it concise.""
+Average time: 2242.254ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+" The issue is that the 'nd' command isn't functioning correctly."
+Average time: 1436.055ms
+
+OVERALL AVERAGE FOR openrouter/mistralai/mistral-7b-instruct:free: 1660.803ms
+
+
+=========================================
+QUICK REFERENCE SUMMARY
+=========================================
+
+Models tested:
+- openrouter/mistralai/mistral-7b-instruct:free
+
+Test samples used:
+3. "um, so like, I think we should, uh, implement this feature"
+4. "the the command is is broken and nd need to to fix it"
+5. "uh, let me check the gooble docs for for the answer"
+6. "Well um basically what I'm trying to say is uh that we need to to refactor this code"
+7. "So so the problem is is that the nd command doesn't doesn't work properly"

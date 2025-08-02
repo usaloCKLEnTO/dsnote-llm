@@ -1,0 +1,14 @@
+,Model,Avg Latency (ms),Cleanup Accuracy,Notes
+0,groq-llama3-70b,489.007,1.0,"Excellent cleanup, fastest overall."
+1,groq-kimi-k2,568.773,1.0,Also fast and consistently clean.
+2,gemini-2.5-flash-lite-preview-06-17,688.541,1.0,"Good cleanup, sub-second latency."
+5,gpt-4o,1021.71,1.0,"Accurate cleanup, decent latency."
+6,gpt-4-turbo,1055.134,1.0,"Accurate, higher latency."
+8,gpt-4o (redundant),1160.811,1.0,"Redundant, matches other gpt-4o entry."
+12,groq/qwen/qwen3-32b,1783.149,1.0,"Accurate, verbose output, moderate latency."
+11,gemini-2.5-pro,8832.687,1.0,Accurate but unusably slow.
+3,gpt-3.5-turbo,933.611,0.9,"Fast, but Sample 4 missed some cleanup."
+4,gpt-4o-mini,951.254,0.8,"Sample 3 returned a prompt, not a cleaned answer."
+7,claude-3.5-sonnet,1231.407,0.8,One sample returned meta instruction.
+9,claude-3.5-haiku,2055.462,0.8,One sample included extra prompt.
+10,gemini-2.5-flash,2474.467,0.6,Missed cleanup on 'gooble' and grammar.

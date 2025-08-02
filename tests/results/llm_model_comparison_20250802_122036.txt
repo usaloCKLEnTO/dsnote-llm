@@ -1,0 +1,170 @@
+=== Simon's LLM Tool Model Comparison ===
+Date: Sat Aug  2 12:20:36 EDT 2025
+Testing 4 models with 5 text samples
+
+
+
+=========================================
+MODEL: groq-kimi-k2
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"We should implement this feature."
+Average time: 685.502ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 697.477ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google Docs for the answer."
+Average time: 651.125ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"Basically, we need to refactor this code."
+Average time: 683.540ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 635.026ms
+
+OVERALL AVERAGE FOR groq-kimi-k2: 670.534ms
+
+
+=========================================
+MODEL: groq-llama3-70b
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 598.717ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 578.963ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google Docs for the answer."
+Average time: 578.876ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code and clean it up."
+Average time: 562.522ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 617.073ms
+
+OVERALL AVERAGE FOR groq-llama3-70b: 587.230ms
+
+
+=========================================
+MODEL: gemini-2.5-flash-lite
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"We should implement this feature."
+Average time: 831.747ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 880.317ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google docs for the answer."
+Average time: 912.358ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 922.808ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The `nd` command isn't working properly."
+Average time: 876.163ms
+
+OVERALL AVERAGE FOR gemini-2.5-flash-lite: 884.678ms
+
+
+=========================================
+MODEL: groq-llama-3.3-70b
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 563.124ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 575.550ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google Docs for the answer."
+Average time: 639.530ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 573.626ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 584.905ms
+
+OVERALL AVERAGE FOR groq-llama-3.3-70b: 587.347ms
+
+
+=========================================
+QUICK REFERENCE SUMMARY
+=========================================
+
+Models tested:
+- groq-kimi-k2
+- groq-llama3-70b
+- gemini-2.5-flash-lite
+- groq-llama-3.3-70b
+
+Test samples used:
+3. "um, so like, I think we should, uh, implement this feature"
+4. "the the command is is broken and nd need to to fix it"
+5. "uh, let me check the gooble docs for for the answer"
+6. "Well um basically what I'm trying to say is uh that we need to to refactor this code"
+7. "So so the problem is is that the nd command doesn't doesn't work properly"

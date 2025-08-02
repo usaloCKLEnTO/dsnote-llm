@@ -1,0 +1,15 @@
+,Model,Avg Latency (ms),Cleanup Accuracy,Notes
+0,groq-llama3-70b,587.0,1.0,"Fastest, accurate cleanup, low latency."
+1,groq-llama-3.3-70b,587.3,1.0,Nearly identical to llama3-70b.
+6,gpt-4-turbo,1218.1,1.0,"Accurate, moderate latency."
+7,gpt-4o,1270.1,1.0,Accurate and consistent; latency just over 1s.
+9,groq/qwen/qwen3-32b,1656.9,1.0,"Verbose inner monologue, but good final output."
+13,gemini-2.5-pro,10123.2,1.0,"Extremely slow, but accurate."
+2,groq-kimi-k2,670.5,0.95,"Fast, mostly accurate; minor formatting issues in one run."
+3,gemini-2.5-flash-lite,884.7,0.95,"Good speed and cleanup, occasional mild paraphrasing."
+11,claude-3.5-sonnet,2189.3,0.95,"Accurate, but very slow."
+4,gpt-3.5-turbo,1122.6,0.9,"Fast, but one sample retained verbose phrasing."
+8,claude-3.5-haiku,1380.5,0.8,One sample returned task prompt text.
+10,openrouter/mistral-7b-instruct:free,1660.8,0.7,"Mixed outputs, often included examples and formatting."
+12,gemini-2.5-flash,3001.6,0.7,Slow and one grammar fix missed.
+5,gpt-4o-mini,1148.7,0.6,Two samples returned a meta prompt instead of cleaned text.

@@ -1,0 +1,554 @@
+=== Simon's LLM Tool Model Comparison ===
+Date: Sat Aug  2 12:10:50 EDT 2025
+Testing 12 models with 5 text samples
+
+
+
+=========================================
+MODEL: groq-kimi-k2
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"We should implement this feature."
+Average time: 863.651ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 651.743ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google Docs for the answer."
+Average time: 689.739ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 715.619ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 678.547ms
+
+OVERALL AVERAGE FOR groq-kimi-k2: 719.859ms
+
+
+=========================================
+MODEL: groq-llama3-70b
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 582.490ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 585.505ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google Docs for the answer."
+Average time: 604.487ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 581.539ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 589.569ms
+
+OVERALL AVERAGE FOR groq-llama3-70b: 588.718ms
+
+
+=========================================
+MODEL: claude-3.5-sonnet
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 2581.929ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 2325.628ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check Google Docs for the answer"
+Average time: 2450.047ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 2033.887ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 1554.920ms
+
+OVERALL AVERAGE FOR claude-3.5-sonnet: 2189.282ms
+
+
+=========================================
+MODEL: claude-3.5-haiku
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"We should implement this feature."
+Average time: 1300.449ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"Clean up this transcribed speech. Remove filler words like 'um', 'uh', fix grammar, remove duplicate words, and make it clear and concise."
+Average time: 1784.519ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google docs for the answer."
+Average time: 1267.152ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 1284.330ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 1265.802ms
+
+OVERALL AVERAGE FOR claude-3.5-haiku: 1380.450ms
+
+
+=========================================
+MODEL: gemini-2.5-flash
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 2348.620ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and need to fix it."
+Average time: 4527.449ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the gooble docs for the answer."
+Average time: 1838.314ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 3289.420ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 3004.374ms
+
+OVERALL AVERAGE FOR gemini-2.5-flash: 3001.635ms
+
+
+=========================================
+MODEL: gemini-2.5-flash-lite-preview-06-17
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"Error: 'Unknown model: gemini-2.5-flash-lite-preview-06-17'"
+Average time: 381.782ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"Error: 'Unknown model: gemini-2.5-flash-lite-preview-06-17'"
+Average time: 383.461ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Error: 'Unknown model: gemini-2.5-flash-lite-preview-06-17'"
+Average time: 381.658ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"Error: 'Unknown model: gemini-2.5-flash-lite-preview-06-17'"
+Average time: 390.530ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"Error: 'Unknown model: gemini-2.5-flash-lite-preview-06-17'"
+Average time: 390.136ms
+
+OVERALL AVERAGE FOR gemini-2.5-flash-lite-preview-06-17: 385.513ms
+
+
+=========================================
+MODEL: groq/qwen/qwen3-32b
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"<think>
+Okay, let me take a look at this query. The user wants to clean up a transcribed speech by removing filler words, fixing grammar, and making it concise. The example they provided is: "um, so like, I think we should, uh, implement this feature".
+
+First, I need to identify all the filler words here. "um", "so like", "uh" – those are the main ones. Next, I'll remove them. Then, check the grammar. The original sentence has some unnecessary commas and phrases. For example, "I think we should implement this feature" is the core message. The rest is just filler. I need to make sure the sentence is clear and concise after the cleanup. Also, the user mentioned not to include any explanations, just the cleaned text. Let me verify that. The original has "um" at the beginning, which should be removed. Then "so like" can become a single "I think" or just "Let's implement". Wait, maybe "I think we should implement this feature" is the cleaned version. Hmm, but the user's example response in the history might guide me. The user's example response was "I think we should implement this feature." So yes, just removing the fillers and keeping the main idea. Alright, so applying that to the given input. Let me double-check for any remaining fillers or grammar issues. No, it looks good. Final answer is just the cleaned sentence.
+</think>
+
+I think we should implement this feature."
+Average time: 1425.645ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"<think>
+Alright, let's tackle this. The user provided a query that's a bit jumbled with duplicate words and filler words. First, I need to read through it carefully to understand what they want.
+
+The original text says: "the the command is is broken and nd need to to fix it". The main issues here are the repeated words like "the the," "is is," "to to," and the possible typo "nd" which should be "and." 
+
+I should start by removing the duplicate words. "the the" becomes "the," "is is" becomes "is," and "to to" becomes "to." Then, correct "nd" to "and." The sentence structure is a bit off, so I need to rephrase it for clarity. 
+
+Putting it all together, the cleaned version should be concise and grammatically correct. Let me check again to make sure I didn't miss any fillers or other errors. The user also mentioned removing filler words like 'um', 'uh', which aren't present here, but good to keep in mind for future cases. 
+
+Final check: "The command is broken and needs to be fixed." That sounds right. No need for explanations, just the cleaned text. Yep, that's what the user asked for.
+</think>
+
+The command is broken and needs to be fixed."
+Average time: 1855.791ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"<think>
+Okay, let's see. The user wants me to clean up a transcribed speech. They mentioned removing filler words like 'um' and 'uh', fixing grammar, removing duplicates, and making it clear and concise. They also specified only the cleaned text, no explanations.
+
+First, I need to look at the input. The example given is someone saying, "uh, let me check the gooble docs for for the answer." So I need to correct "gooble" to "Google," fix the double "for," and remove the "uh."
+
+Wait, the user provided their initial prompt as an example. Maybe they want to test me with that. Let me clean that example. The original is: "uh, let me check the gooble docs for for the answer". Corrected, it would be "Let me check the Google docs for the answer." But maybe the user wants me to apply this to other texts they provide.
+
+Wait, the user then wrote another message: "Clean up this transcribed speech... Only return the cleaned text, no explanations." So maybe the user is providing a sample input, but they want to know if I can apply that to their actual text. However, in the initial query, they included their own example. But in the current prompt, they might be asking me to clean their transcribed speech, which they haven't provided yet.
+
+Wait, looking back, maybe the user is giving me an example of what they want. Let me check again. The user first says, "uh, let me check the gooble docs for for the answer". Then they ask to clean up the transcribed speech. The example is part of the user's query, and the task is to clean that specific example. The final output should be the cleaned version of that example.
+
+So the original text is: "uh, let me check the gooble docs for for the answer"
+
+Cleaned steps:
+1. Remove "uh" at the beginning.
+2. Correct "gooble" to "Google".
+3. Remove the double "for".
+4. Ensure the sentence is correct.
+
+Result: "Let me check the Google docs for the answer."
+
+Wait, but the user might also want it to be concise. Maybe "Google Docs" with capitalization? Also, maybe "the Google docs" is correct, but "Google Docs" as a proper noun. So "Check the Google Docs for the answer." But perhaps they just want the corrections without capitalization changes unless necessary.
+
+Alternatively, if the original is "gooble docs", correcting to "Google Docs" would be proper. So "Let me check the Google Docs for the answer."
+
+But maybe they just want the spelling corrected, not the capitalization. Hmm. The user might not have intended to discuss capitalization unless specified. Since the original query is in the middle of a sentence, perhaps it's best to just spell-correct and fix the double "for". So the cleaned text would be: "Let me check the Google docs for the answer."
+
+But I need to confirm. Since the user's example has "gooble docs", which is a misspelling of "Google Docs". So correcting the spelling and removing the double "for". The cleaned version would be "Let me check the Google Docs for the answer."
+
+Alternatively, maybe the user wants it as one "gooble" to "Google", and then "the answer". But the key is to follow the instructions: remove filler words, fix grammar, remove duplicates, make it clear and concise.
+
+So final cleaned version of the example is as above. Now, since the user provided this as an example, perhaps they want me to apply the same process to their actual text. But in this case, the user hasn't provided another text, so maybe the example is just to show how I should handle it. But the user's query also includes their initial message, so perhaps the task is to clean that exact text.
+</think>
+
+Let me check the Google docs for the answer."
+Average time: 1953.473ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"<think>
+Okay, so the user wants to clean up a transcribed speech that has a lot of filler words like "um" and "uh." They also mentioned fixing grammar and removing duplicate words. Let me start by reading through the provided example to understand the structure.
+
+First, the original input is: "Well um basically what I'm trying to say is uh that we need to to refactor this code." I notice that there are a few issues here. The filler words "um" and "uh" are in there twice. Then there's the duplicate "to to" which needs to be fixed. The structure is a bit convoluted. 
+
+My job is to make it clear and concise. So I need to replace the fillers and adjust the wording. Let's break it down. Starting with "Well um basically what I'm trying to say is uh that we need to to refactor this code." The user wants to communicate the need to refactor code but the sentence is wordy. The phrase "what I'm trying to say is uh that we need to" can be simplified. Maybe "We need to refactor this code" is sufficient. Also, the duplicate "to to" should be corrected to "to" once. Filler words like "basically" might be okay, but perhaps can be removed for conciseness.
+
+Wait, the user mentioned removing filler words. So "basically" is a filler here, maybe. Or is it a filler? Sometimes "basically" is used to emphasize the main point. Hmm. In the context of transcribed speech, it's probably safe to remove unless it's crucial. The user didn't specify keeping any emphasis, so removing "basically" makes sense. Also, "Well" and "I'm trying to say" can be trimmed. 
+
+Putting it all together: The main point is "We need to refactor this code." The filler words like "um," "uh," "basically," and the duplicate "to" should be removed. So the cleaned version would be "We need to refactor this code." Let me check if that's correct. The original message was trying to get to the point of needing to refactor. Yes, that's clean and concise, without any fillers or unnecessary words.
+</think>
+
+We need to refactor this code."
+Average time: 1444.856ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"<think>
+Okay, let's tackle this query. The user provided a transcribed speech that needs cleaning. The original text is: "So so the problem is is that the nd command doesn't doesn't work properly."
+
+First, I need to remove duplicate words. "So so" becomes "So". Then "is is" should be "is". Also, "doesn't doesn't" becomes "doesn't". 
+
+Next, check for filler words. There's "um" and "uh" mentioned in the instructions, but they aren't present here. So maybe none to remove there. 
+
+Grammar-wise, the structure is a bit off. The original sentence is fragmented. Maybe rephrase for clarity. The intended meaning is that the "nd" command isn't working properly. 
+
+Wait, "nd command" – perhaps it's a typo? Could it be "nd" is intended as "nd" or maybe "nd" is short for something else? The user didn't specify, so I should keep it as is unless instructed otherwise. 
+
+So the cleaned version should be: "The problem is that the nd command doesn't work properly." 
+
+That removes the duplicates, fixes the grammar, and makes it concise. I'll double-check for any remaining issues. Yes, that's clear and to the point.
+</think>
+
+The problem is that the nd command doesn't work properly."
+Average time: 1604.527ms
+
+OVERALL AVERAGE FOR groq/qwen/qwen3-32b: 1656.858ms
+
+
+=========================================
+MODEL: gemini-2.5-pro
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 7481.032ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 19377.010ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google docs for the answer."
+Average time: 7176.267ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 7355.416ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 9226.344ms
+
+OVERALL AVERAGE FOR gemini-2.5-pro: 10123.213ms
+
+
+=========================================
+MODEL: gpt-3.5-turbo
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 1411.703ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 1000.117ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the Google Docs for the answer."
+Average time: 1180.014ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"Well, basically, what I'm trying to say is that we need to refactor this code."
+Average time: 1043.514ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"So the problem is that the 'nd' command doesn't work properly."
+Average time: 977.534ms
+
+OVERALL AVERAGE FOR gpt-3.5-turbo: 1122.576ms
+
+
+=========================================
+MODEL: gpt-4-turbo
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 1136.018ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 1162.777ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check Google Docs for the answer."
+Average time: 1144.821ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 1223.530ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the nd command doesn't work properly."
+Average time: 1423.369ms
+
+OVERALL AVERAGE FOR gpt-4-turbo: 1218.103ms
+
+
+=========================================
+MODEL: gpt-4o
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 1331.432ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and needs to be fixed."
+Average time: 965.555ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check Google Docs for the answer."
+Average time: 1806.057ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 1110.962ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the ND command doesn't work properly."
+Average time: 1136.275ms
+
+OVERALL AVERAGE FOR gpt-4o: 1270.056ms
+
+
+=========================================
+MODEL: gpt-4o-mini
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 1358.203ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"Sure, please provide the transcribed speech that you would like me to clean up."
+Average time: 1088.607ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Sure, please provide the transcribed speech you'd like me to clean up."
+Average time: 1193.991ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 924.037ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the `nd` command doesn't work properly."
+Average time: 1178.664ms
+
+OVERALL AVERAGE FOR gpt-4o-mini: 1148.700ms
+
+
+=========================================
+QUICK REFERENCE SUMMARY
+=========================================
+
+Models tested:
+- groq-kimi-k2
+- groq-llama3-70b
+- claude-3.5-sonnet
+- claude-3.5-haiku
+- gemini-2.5-flash
+- gemini-2.5-flash-lite-preview-06-17
+- groq/qwen/qwen3-32b
+- gemini-2.5-pro
+- gpt-3.5-turbo
+- gpt-4-turbo
+- gpt-4o
+- gpt-4o-mini
+
+Test samples used:
+3. "um, so like, I think we should, uh, implement this feature"
+4. "the the command is is broken and nd need to to fix it"
+5. "uh, let me check the gooble docs for for the answer"
+6. "Well um basically what I'm trying to say is uh that we need to to refactor this code"
+7. "So so the problem is is that the nd command doesn't doesn't work properly"

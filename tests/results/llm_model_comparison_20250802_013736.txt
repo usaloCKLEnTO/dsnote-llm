@@ -1,0 +1,56 @@
+=== Simon's LLM Tool Model Comparison ===
+Date: Sat Aug  2 01:37:36 EDT 2025
+Testing 1 models with 5 text samples
+
+
+
+=========================================
+MODEL: gemini-2.5-flash
+=========================================
+
+Sample 1 - Input:
+"um, so like, I think we should, uh, implement this feature"
+Output:
+"I think we should implement this feature."
+Average time: 2263.898ms
+
+Sample 2 - Input:
+"the the command is is broken and nd need to to fix it"
+Output:
+"The command is broken and need to fix it."
+Average time: 1858.084ms
+
+Sample 3 - Input:
+"uh, let me check the gooble docs for for the answer"
+Output:
+"Let me check the gooble docs for the answer."
+Average time: 1926.959ms
+
+Sample 4 - Input:
+"Well um basically what I'm trying to say is uh that we need to to refactor this code"
+Output:
+"We need to refactor this code."
+Average time: 4634.226ms
+
+Sample 5 - Input:
+"So so the problem is is that the nd command doesn't doesn't work properly"
+Output:
+"The problem is that the `nd` command doesn't work properly."
+Average time: 1689.172ms
+
+OVERALL AVERAGE FOR gemini-2.5-flash: 2474.467ms
+
+
+=========================================
+QUICK REFERENCE SUMMARY
+=========================================
+
+Models tested:
+- gemini-2.5-flash
+
+Test samples used:
+3. "um, so like, I think we should, uh, implement this feature"
+4. "the the command is is broken and nd need to to fix it"
+5. "uh, let me check the gooble docs for for the answer"
+6. "Well um basically what I'm trying to say is uh that we need to to refactor this code"
+7. "So so the problem is is that the nd command doesn't doesn't work properly"

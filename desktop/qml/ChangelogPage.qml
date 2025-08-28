@@ -18,6 +18,29 @@ DialogPage {
     }
 
     RichLabel {
+        text: "<p>" + qsTr("General") + "</p>
+        <ul>
+        <li>Fix: The model cannot be activated when the license file cannot be downloaded due to an error.</li>
+        </ul>
+        <p>" + qsTr("Speech to Text") + "</p>
+        <ul>
+        <li>Fix: App crashes when WhisperCpp is used on certain CPUs.</li>
+        </ul>
+        <p>" + qsTr("Text to Speech") + "</p>
+        <ul>
+        <li>Fix: The Coqui XTTS model license cannot be downloaded.</li>
+        </ul>
+        <p>" + qsTr("Translator") + "</p>
+        <ul>
+        <li>Fix: App crashes when the translator is used on certain CPUs.</li>
+        </ul>"
+    }
+
+    SectionLabel {
+        text: qsTr("Version %1").arg("4.8.2")
+    }
+
+    RichLabel {
         text: "<p>" + qsTr("Text to Speech") + "</p>
         <ul>
         <li>New <i>Piper</i> voices for Argentine Spanish, Hindi, Malayalam and Nepali</li>
